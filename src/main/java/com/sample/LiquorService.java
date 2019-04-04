@@ -25,7 +25,13 @@ public class LiquorService {
         }else if(type.equals(LiquorType.BEER)){
             brands.add("Corona");
 
-        }else {
+        }else if(type.equals(LiquorType.POP)){
+            brands.add("Pepsi");
+            brands.add("Dr.Pepper");
+            brands.add("Sprite");
+            brands.add("Canada Dry");
+        }
+        else {
             brands.add("No Brand Available");
         }
     return brands;
